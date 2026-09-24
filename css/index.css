@@ -1,0 +1,113 @@
+body {
+    padding: 30px;
+    margin: 30px;
+    border:blue;
+    font-family: serif;
+    background-color: beige;
+}
+.navbak {
+	background-image: url("images/e2port1.jpg");
+	z-index: -10;
+}
+h1, h2, h3, h4, h5, h6 { font-family: sans-serif; 
+	background-image:url("/images/ncres.png");
+	opacity: 0.6;
+	color: purple;
+    text-align: center;}
+*  {
+		box-sizing: border-box;
+	}
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+		
+		
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        padding: 8px;
+        background-color: #dddddd;
+      }
+
+/*div {
+    margin:20px;
+    padding:30px;
+    float:left;
+    color:lightcoral;
+    border:black;
+}*/
+#mc:focus {
+  color:cornflowerblue;
+}
+#e2port1{
+	width:95%;
+    height:250px;
+    opacity:0.7;
+    margin:5px;
+    padding: 3px;
+    border: 4px black groove;
+    float: inline-end;
+	display: block;
+}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 16.6%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+  height:100px;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: goldenrod;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+hr {
+	padding:10px;
+	width: 100%;
+	
+}
